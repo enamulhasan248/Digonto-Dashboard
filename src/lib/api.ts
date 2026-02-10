@@ -1,6 +1,6 @@
 import type { KPIData, RevenueData, OrderData, EnrollmentData, UserTypeData, Student, Transaction, Report } from '@/types';
 
-const API = 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
 async function fetchJson<T>(endpoint: string): Promise<T> {
     const res = await fetch(`${API}${endpoint}`);
