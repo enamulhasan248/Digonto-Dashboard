@@ -1,0 +1,550 @@
+{
+    "stats": [
+        {
+            "id": 1,
+            "title": "Total Revenue",
+            "value": "$54,230",
+            "change": 12.5,
+            "trend": "up",
+            "sparkline": [
+                30,
+                40,
+                35,
+                50,
+                49,
+                60,
+                70,
+                65,
+                80,
+                75,
+                85,
+                90
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Total Users",
+            "value": "1,245",
+            "change": 3.2,
+            "trend": "up",
+            "sparkline": [
+                100,
+                120,
+                115,
+                130,
+                140,
+                135,
+                150,
+                160,
+                155,
+                170,
+                175,
+                180
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Orders",
+            "value": "342",
+            "change": -1.1,
+            "trend": "down",
+            "sparkline": [
+                40,
+                38,
+                42,
+                35,
+                30,
+                33,
+                28,
+                32,
+                29,
+                25,
+                27,
+                30
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Conversion Rate",
+            "value": "4.3%",
+            "change": 0.5,
+            "trend": "up",
+            "sparkline": [
+                3.2,
+                3.5,
+                3.4,
+                3.8,
+                3.9,
+                4.0,
+                3.8,
+                4.1,
+                4.0,
+                4.2,
+                4.1,
+                4.3
+            ]
+        }
+    ],
+    "revenue": [
+        {
+            "id": 1,
+            "month": "Jan",
+            "income": 4200,
+            "expense": 2800
+        },
+        {
+            "id": 2,
+            "month": "Feb",
+            "income": 3800,
+            "expense": 2500
+        },
+        {
+            "id": 3,
+            "month": "Mar",
+            "income": 5100,
+            "expense": 3000
+        },
+        {
+            "id": 4,
+            "month": "Apr",
+            "income": 4700,
+            "expense": 2900
+        },
+        {
+            "id": 5,
+            "month": "May",
+            "income": 6200,
+            "expense": 3200
+        },
+        {
+            "id": 6,
+            "month": "Jun",
+            "income": 5800,
+            "expense": 3100
+        },
+        {
+            "id": 7,
+            "month": "Jul",
+            "income": 7100,
+            "expense": 3500
+        },
+        {
+            "id": 8,
+            "month": "Aug",
+            "income": 6600,
+            "expense": 3300
+        },
+        {
+            "id": 9,
+            "month": "Sep",
+            "income": 8200,
+            "expense": 3800
+        },
+        {
+            "id": 10,
+            "month": "Oct",
+            "income": 7800,
+            "expense": 3600
+        },
+        {
+            "id": 11,
+            "month": "Nov",
+            "income": 9100,
+            "expense": 4000
+        },
+        {
+            "id": 12,
+            "month": "Dec",
+            "income": 8600,
+            "expense": 3900
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "month": "Jan",
+            "orders": 30
+        },
+        {
+            "id": 2,
+            "month": "Feb",
+            "orders": 25
+        },
+        {
+            "id": 3,
+            "month": "Mar",
+            "orders": 35
+        },
+        {
+            "id": 4,
+            "month": "Apr",
+            "orders": 28
+        },
+        {
+            "id": 5,
+            "month": "May",
+            "orders": 40
+        },
+        {
+            "id": 6,
+            "month": "Jun",
+            "orders": 32
+        },
+        {
+            "id": 7,
+            "month": "Jul",
+            "orders": 45
+        },
+        {
+            "id": 8,
+            "month": "Aug",
+            "orders": 38
+        },
+        {
+            "id": 9,
+            "month": "Sep",
+            "orders": 50
+        },
+        {
+            "id": 10,
+            "month": "Oct",
+            "orders": 42
+        },
+        {
+            "id": 11,
+            "month": "Nov",
+            "orders": 55
+        },
+        {
+            "id": 12,
+            "month": "Dec",
+            "orders": 48
+        }
+    ],
+    "enrollments": [
+        {
+            "id": 1,
+            "month": "Jan",
+            "enrollments": 120
+        },
+        {
+            "id": 2,
+            "month": "Feb",
+            "enrollments": 150
+        },
+        {
+            "id": 3,
+            "month": "Mar",
+            "enrollments": 180
+        },
+        {
+            "id": 4,
+            "month": "Apr",
+            "enrollments": 160
+        },
+        {
+            "id": 5,
+            "month": "May",
+            "enrollments": 200
+        },
+        {
+            "id": 6,
+            "month": "Jun",
+            "enrollments": 220
+        },
+        {
+            "id": 7,
+            "month": "Jul",
+            "enrollments": 190
+        },
+        {
+            "id": 8,
+            "month": "Aug",
+            "enrollments": 250
+        },
+        {
+            "id": 9,
+            "month": "Sep",
+            "enrollments": 280
+        },
+        {
+            "id": 10,
+            "month": "Oct",
+            "enrollments": 260
+        },
+        {
+            "id": 11,
+            "month": "Nov",
+            "enrollments": 300
+        },
+        {
+            "id": 12,
+            "month": "Dec",
+            "enrollments": 320
+        }
+    ],
+    "userTypes": [
+        {
+            "id": 1,
+            "name": "Free",
+            "value": 650,
+            "color": "#6366f1"
+        },
+        {
+            "id": 2,
+            "name": "Premium",
+            "value": 420,
+            "color": "#10b981"
+        },
+        {
+            "id": 3,
+            "name": "Enterprise",
+            "value": 175,
+            "color": "#f59e0b"
+        }
+    ],
+    "students": [
+        {
+            "id": 1,
+            "name": "Rahim Uddin",
+            "email": "rahim@mail.com",
+            "phone": "+880 171 234 5678",
+            "course": "Web Development",
+            "enrolled": "2025-09-15",
+            "status": "Active",
+            "progress": 72
+        },
+        {
+            "id": 2,
+            "name": "Fatema Akter",
+            "email": "fatema@mail.com",
+            "phone": "+880 181 345 6789",
+            "course": "Data Science",
+            "enrolled": "2025-08-01",
+            "status": "Active",
+            "progress": 85
+        },
+        {
+            "id": 3,
+            "name": "Kamal Hossain",
+            "email": "kamal@mail.com",
+            "phone": "+880 191 456 7890",
+            "course": "Mobile App Dev",
+            "enrolled": "2025-07-10",
+            "status": "Graduated",
+            "progress": 100
+        },
+        {
+            "id": 4,
+            "name": "Nusrat Jahan",
+            "email": "nusrat@mail.com",
+            "phone": "+880 171 567 8901",
+            "course": "UI/UX Design",
+            "enrolled": "2025-10-20",
+            "status": "Active",
+            "progress": 45
+        },
+        {
+            "id": 5,
+            "name": "Tanvir Rahman",
+            "email": "tanvir@mail.com",
+            "phone": "+880 181 678 9012",
+            "course": "Python Mastery",
+            "enrolled": "2025-06-05",
+            "status": "Inactive",
+            "progress": 30
+        },
+        {
+            "id": 6,
+            "name": "Sumaiya Islam",
+            "email": "sumaiya@mail.com",
+            "phone": "+880 191 789 0123",
+            "course": "Digital Marketing",
+            "enrolled": "2025-11-01",
+            "status": "Active",
+            "progress": 20
+        },
+        {
+            "id": 7,
+            "name": "Arif Hasan",
+            "email": "arif@mail.com",
+            "phone": "+880 171 890 1234",
+            "course": "Web Development",
+            "enrolled": "2025-05-18",
+            "status": "Graduated",
+            "progress": 100
+        },
+        {
+            "id": 8,
+            "name": "Mira Chowdhury",
+            "email": "mira@mail.com",
+            "phone": "+880 181 901 2345",
+            "course": "Data Science",
+            "enrolled": "2025-09-25",
+            "status": "Active",
+            "progress": 60
+        },
+        {
+            "id": 9,
+            "name": "Shakib Al Hasan",
+            "email": "shakib@mail.com",
+            "phone": "+880 191 012 3456",
+            "course": "Cyber Security",
+            "enrolled": "2025-04-12",
+            "status": "Active",
+            "progress": 88
+        },
+        {
+            "id": 10,
+            "name": "Ayesha Siddiqua",
+            "email": "ayesha@mail.com",
+            "phone": "+880 171 123 4567",
+            "course": "UI/UX Design",
+            "enrolled": "2025-12-01",
+            "status": "Active",
+            "progress": 10
+        },
+        {
+            "id": 11,
+            "name": "Imran Khan",
+            "email": "imran@mail.com",
+            "phone": "+880 181 234 5670",
+            "course": "Mobile App Dev",
+            "enrolled": "2025-03-08",
+            "status": "Inactive",
+            "progress": 55
+        },
+        {
+            "id": 12,
+            "name": "Jannatul Ferdous",
+            "email": "jannatul@mail.com",
+            "phone": "+880 191 345 6781",
+            "course": "Python Mastery",
+            "enrolled": "2025-08-22",
+            "status": "Active",
+            "progress": 78
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "user": "Rahim Uddin",
+            "type": "Course Purchase",
+            "amount": 49.99,
+            "date": "2026-02-09",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "user": "Fatema Akter",
+            "type": "Subscription",
+            "amount": 19.99,
+            "date": "2026-02-09",
+            "status": "Completed"
+        },
+        {
+            "id": 3,
+            "user": "Kamal Hossain",
+            "type": "Certificate",
+            "amount": 9.99,
+            "date": "2026-02-08",
+            "status": "Completed"
+        },
+        {
+            "id": 4,
+            "user": "Nusrat Jahan",
+            "type": "Course Purchase",
+            "amount": 79.99,
+            "date": "2026-02-08",
+            "status": "Pending"
+        },
+        {
+            "id": 5,
+            "user": "Tanvir Rahman",
+            "type": "Workshop",
+            "amount": 29.99,
+            "date": "2026-02-07",
+            "status": "Refunded"
+        },
+        {
+            "id": 6,
+            "user": "Sumaiya Islam",
+            "type": "Course Purchase",
+            "amount": 59.99,
+            "date": "2026-02-07",
+            "status": "Completed"
+        }
+    ],
+    "reports": [
+        {
+            "id": 1,
+            "title": "Monthly Revenue Report",
+            "description": "Comprehensive revenue analysis for January 2026",
+            "type": "Financial",
+            "icon": "TrendingUp",
+            "date": "2026-02-01",
+            "size": "2.4 MB",
+            "status": "Ready"
+        },
+        {
+            "id": 2,
+            "title": "Student Enrollment Report",
+            "description": "New enrollments, course popularity, and retention metrics",
+            "type": "Academic",
+            "icon": "Users",
+            "date": "2026-02-01",
+            "size": "1.8 MB",
+            "status": "Ready"
+        },
+        {
+            "id": 3,
+            "title": "Course Performance Analytics",
+            "description": "Completion rates, ratings, and engagement statistics",
+            "type": "Academic",
+            "icon": "PieChart",
+            "date": "2026-01-28",
+            "size": "3.1 MB",
+            "status": "Ready"
+        },
+        {
+            "id": 4,
+            "title": "User Activity Summary",
+            "description": "Daily active users, session times, and usage patterns",
+            "type": "Analytics",
+            "icon": "FileBarChart",
+            "date": "2026-01-25",
+            "size": "1.2 MB",
+            "status": "Ready"
+        },
+        {
+            "id": 5,
+            "title": "Q4 Financial Summary",
+            "description": "Quarterly revenue, expenses, and profit margins",
+            "type": "Financial",
+            "icon": "TrendingUp",
+            "date": "2026-01-15",
+            "size": "4.5 MB",
+            "status": "Ready"
+        },
+        {
+            "id": 6,
+            "title": "February Enrollment Forecast",
+            "description": "Predicted enrollments for the upcoming month",
+            "type": "Forecast",
+            "icon": "FileText",
+            "date": "2026-02-10",
+            "size": "--",
+            "status": "Generating"
+        },
+        {
+            "id": 7,
+            "title": "Annual Report 2025",
+            "description": "Complete yearly report for stakeholders",
+            "type": "General",
+            "icon": "FileBarChart",
+            "date": "2026-03-01",
+            "size": "--",
+            "status": "Scheduled"
+        }
+    ]
+}
